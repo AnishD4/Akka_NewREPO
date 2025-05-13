@@ -1,0 +1,63 @@
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #8AB9A3;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+  }
+  .header-left{/*logo*/
+    display:flex;
+    align-items:center;
+    height:50px;
+  }
+  header img {
+    height: 50px;
+  }
+  .logo-text{/*logo*/
+    font-size:28px;
+    margin-left:10px;
+    line-height:50px;
+  }
+  nav a {
+    color: white;
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  .hero {
+    background: url('https://via.placeholder.com/200');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 20px 40px;
+  }
+  .hero h1 {
+    font-size: 28px;
+    color: #000;
+  }
+  .hero button {
+    background-color: #8AB9A3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  .product-section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  .product-section h2 {
+    font-size: 40px;
+  }
+  .product-section p {
+    font-size: 18px;
+    margin: 10px 0;
+  }

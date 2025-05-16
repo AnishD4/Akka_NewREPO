@@ -32,7 +32,7 @@ document.querySelector('form').addEventListener("submit", async (event) => {
                 document.querySelector('form').reset(); // Clear the form
                 alert(`${firstName} ${lastName}, Your Feedback has been Logged!`);
             } else {
-                alert("Temporary Problem-- Server Side Issue")
+                alert("Server Side Issue")
 
             }
         } catch (error) {
